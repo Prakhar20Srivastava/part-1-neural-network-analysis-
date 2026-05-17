@@ -1,0 +1,7 @@
+index,Experiment,Hidden Layers,Neurons per Layer,Activation,Learning Rate,Epochs,Batch Size,Test Loss,Test Accuracy,Precision (Churn),Recall (Churn),F1-Score (Churn)
+1,"Experiment 2: Deeper Network (3 Layers, 32/16/8 neurons, ReLU, LR=0.001)",3,32,relu,0.001,20,32,0.087861039,0.987500012,1,0.166666667,0.285714286
+0,"Experiment 1: Baseline (2 Layers, 32/16 neurons, ReLU, LR=0.001)",2,32,relu,0.001,20,32,0.089446038,0.985000014,0,0,0
+2,"Experiment 3: Different Activation (2 Layers, 32/16 neurons, Tanh, LR=0.001)",2,32,tanh,0.001,20,32,0.079471461,0.985000014,0,0,0
+3,"Experiment 4: Higher Learning Rate (2 Layers, 32/16 neurons, ReLU, LR=0.01)",2,32,relu,0.01,20,32,0.080142304,0.980000019,0,0,0
+4,"Experiment 5: Fewer Neurons (2 Layers, 16/8 neurons, ReLU, LR=0.001)",2,16,relu,0.001,20,32,0.097146943,0.982500017,0,0,0
+5,"Experiment 6: More Epochs (2 Layers, 32/16 neurons, ReLU, LR=0.001, Epochs=50)",2,32,relu,0.001,50,32,0.085240811,0.985000014,0,0,0
